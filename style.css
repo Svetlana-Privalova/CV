@@ -1,0 +1,72 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+
+}
+
+.merch {
+  color: rgb(179, 179, 89);
+}
+
+.container {
+  padding: 0 50px;
+  margin-left: 100px;
+}
+
+h1 {
+color: rgb(85, 48, 71);
+  font-size: 20px;
+  font-family:Bauhaus;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 30px 0;
+  font-family:Library 3 am;
+  color: rgb(109, 133, 160);
+}
+
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 80px;
+  background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);;
+  /* Радиус скругления */
+  border: 8px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(134, 35, 35, 0.52);
+  object-fit: cover;
+
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 4px solid #d573ae;
+}
+p{color: #6a805e;
+font-family: bauhaus;
+font-size: 15px;}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:rgb(207, 233, 41);
+}
+
+  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #dadada;
+  width: 300px;
+}
+
